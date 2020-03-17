@@ -1,0 +1,102 @@
+html, body {
+    background-color: #fff;
+    color: #636b6f;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 200;
+    margin: 0;
+}
+
+.flex-center {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.position-ref {
+    position: relative;
+}
+
+.top-right {
+    position: absolute;
+    right: 10px;
+    top: 18px;
+}
+
+.content {
+    text-align: center;
+}
+
+.title {
+    font-size: 84px;
+}
+
+.links > a {
+    color: #636b6f;
+    padding: 0 25px;
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: .1rem;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.m-b-md {
+    margin-bottom: 30px;
+}
+
+.top {
+    width: 100%;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    color: #000;
+    background: orange;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.left, .right, .center {
+    width: 20%;
+    background: #f1f1f1;
+    float: left;
+    min-height: 600px;
+}
+
+.center {
+    width: 60%;
+    background: #fff;
+}
+
+.footer {
+    background: #000;
+    text-align: center;
+    color: #FFF;
+    height: 60px;
+    line-height: 60px;
+    clear: both;
+}
+
+ul {
+    margin: 0px;
+    padding: 0px;
+    list-style-type: none;
+}
+
+ul.x-menu li {
+    float: left;
+}
+
+ul li a {
+    text-decoration: none;
+    display: block;
+    color: #FFF;
+    font-size: 13px;
+    background: red;
+    padding: 0px 10px 0px 10px;
+}
+
+ul.y-menu li {
+    border-bottom: 1px solid #ccc;
+    line-height: 32px;
+}
