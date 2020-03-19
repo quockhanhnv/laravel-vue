@@ -4,7 +4,7 @@ use Illuminate\Database\Migrations\Migration;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Support\Facades\Schema;
 
-class AddColumnDescriptionToLessonsTable extends Migration
+class CreateExamQuestionsTable extends Migration
 {
     /**
      * Run the migrations.
@@ -13,8 +13,12 @@ class AddColumnDescriptionToLessonsTable extends Migration
      */
     public function up()
     {
-        Schema::table('lessons', function (Blueprint $table) {
-            $table->text('description')->before('created_at');
+        Schema::create('exam_question', function (Blueprint $table) {
+            $table->bigInteger('exam_id');
+            $table->bigInteger('question_id');
+            $table->timestamps();
+
+            $table->index(['exam_id', 'question_id']);
         });
     }
 
@@ -25,8 +29,6 @@ class AddColumnDescriptionToLessonsTable extends Migration
      */
     public function down()
     {
-        Schema::table('lessons', function (Blueprint $table) {
-            $table->dropColumn('description');
-        });
+        Schema::dropIfExists('exam_question');
     }
 }
