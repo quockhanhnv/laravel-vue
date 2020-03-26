@@ -4,8 +4,80 @@
 		"selected_items":
 		[
 			[
+				"padd",
+				"padding-left\tproperty"
+			],
+			[
+				"bord",
+				"border\tproperty"
+			],
+			[
+				"border-ra",
+				"border-top-right-radius\tproperty"
+			],
+			[
+				"borde",
+				"border-width\tproperty"
+			],
+			[
+				"u",
+				"unset\ttext-transform"
+			],
+			[
+				"i",
+				"italic\tfont-style"
+			],
+			[
+				"backgroun",
+				"background-repeat\tproperty"
+			],
+			[
+				"back",
+				"background\tproperty"
+			],
+			[
+				"scro",
+				"scrollTop"
+			],
+			[
+				"li",
+				"line-height\tproperty"
+			],
+			[
+				"bo",
+				"bottom\tproperty"
+			],
+			[
+				"inlin",
+				"inline-block\tdisplay"
+			],
+			[
+				"sc",
+				"scrollTop"
+			],
+			[
+				"onc",
+				"onclick\tAttr"
+			],
+			[
+				"con",
+				"content\t = '' Style CSS"
+			],
+			[
+				"mar",
+				"margin-bottom\tproperty"
+			],
+			[
+				"bac",
+				"background\tproperty"
+			],
+			[
 				"ce",
 				"center"
+			],
+			[
+				"cell",
+				"cellspacing\tAttr"
 			],
 			[
 				"r",
@@ -14,10 +86,6 @@
 			[
 				"te",
 				"text-decoration\tproperty"
-			],
-			[
-				"li",
-				"list-style-type\tproperty"
 			],
 			[
 				"di",
@@ -46,10 +114,6 @@
 			[
 				"lis",
 				"list-style\tproperty"
-			],
-			[
-				"mar",
-				"margin\tproperty"
 			],
 			[
 				"min",
@@ -136,28 +200,12 @@
 				"font-size\tproperty"
 			],
 			[
-				"bac",
-				"background"
-			],
-			[
 				"getE",
 				"getElementsByClassName\t( classNames: DOMString ): HTMLCollection Element"
 			],
 			[
-				"bo",
-				"border\tproperty"
-			],
-			[
-				"borde",
-				"border-radius\tproperty"
-			],
-			[
 				"font",
 				"font-size\tproperty"
-			],
-			[
-				"back",
-				"background\tproperty"
 			],
 			[
 				"list",
@@ -178,10 +226,6 @@
 			[
 				"an",
 				"animation-delay\tproperty"
-			],
-			[
-				"i",
-				"infinite"
 			],
 			[
 				"tr",
@@ -332,10 +376,6 @@
 				"margin-left\tproperty"
 			],
 			[
-				"con",
-				"container"
-			],
-			[
 				"city",
 				"cityName"
 			],
@@ -366,10 +406,6 @@
 			[
 				"au",
 				"author"
-			],
-			[
-				"sc",
-				"script\tTag"
 			],
 			[
 				"q",
@@ -478,66 +514,27 @@
 			[
 				"is",
 				"is_float"
-			],
-			[
-				"th",
-				"three"
-			],
-			[
-				"num",
-				"numberTwo"
-			],
-			[
-				"ord",
-				"orderId"
-			],
-			[
-				"le",
-				"length\twarning"
-			],
-			[
-				"dis",
-				"display"
-			],
-			[
-				"cu",
-				"currentVideo"
-			],
-			[
-				"res",
-				"request"
-			],
-			[
-				"vide",
-				"videoRelations"
-			],
-			[
-				"video",
-				"videos"
 			]
 		]
 	},
 	"buffers":
 	[
 		{
-			"file": "/D/laragon/www/LaravelClass.dev/Laravel7/database/seeds/UserTableSeeder.php",
+			"contents": "I.\tBÊN BÁN (sau đây gọi là “Bên A”), gồm:\n1.\tÔng: Trần Thái Quang Hoàng        Ngày, tháng, năm sinh: 06/06/1983\nCMND/CCCD số: 225219898 do công an Khánh Hòa cấp ngày 13/09/2008\nQuê quán: Hải Phòng;\nHộ khẩu thường trú: 64 Đồng Nai, Nha Trang, Khánh Hòa;\nNơi ở hiện tại: Vinhome Reverside Hướng Dương 30-3\nĐiện thoại: 0915019977\n2.\tBà: Đỗ Lan Phương        Ngày, tháng, năm sinh: 30/03/1983;\nCMND/CCCD số: 001183002285 do cục trưởng cục cảnh sát ĐKQL cư trú;\nvà DLQG về dân cư cấp ngày 17/06/2014;\nQuê quán: Hà Nội;\nHộ khẩu thường trú: 25 xóm Hạ Hồi, Trần Hưng Đạo, Hoàn Kiếm, Hà Nội;\nNơi ở hiện tại: Vinhome Reverside Hướng Dương 30-3\nĐiện thoại: 0906219779\n(Ông Trần Thái Quang Hoàng và bà Đỗ Lan Phương hiện đang là vợ chồng hợp pháp, theo Giấy chứng nhận kết hôn do UBND phường Trần Hưng Đạo, quận Hoàn Kiếm, thành phố Hà Nội, cấp ngày 04 tháng 02 năm 2010).\nII.\tBÊN MUA (sau đây gọi là “Bên B”): \nÔng: Phạm Kỳ Khôi        Ngày, tháng, năm sinh: 17/10/1990 \nCCCD số: 026090002796 do Cục Cảnh sát ĐKDL cứ trú và DLQG về dân cư cấp ngày 12/01/2017;\nQuê quán: Sơn Lôi, Bình Xuyên, Vĩnh Phúc;\nHộ khẩu thường trú: Thôn Ái Văn, xã Sơn Lôi, huyện Bình Xuyên, tỉnh Vĩnh Phúc.;\nNơi ở hiện tại: Thôn Ái Văn, xã Sơn Lôi, huyện Bình Xuyên, tỉnh Vĩnh Phúc;\nĐiện thoại: 0942 668 586\nIII.\tBÊN LIÊN QUAN (sau đây gọi là “Bên C”):\n1.\tBà: Cát Thị Thanh Hà        Ngày, tháng, năm sinh: 10/07/1968;\nCMND/CCCD số: 027168000173 do cục cảnh sát ĐKQL cư trú và DLQG về dân cư cấp ngày 13/03/2018;\nQuê quán: Đường Lâm, Sơn Tây, Hà Nội;\nHộ khẩu thường trú: Số 8, ngõ 44 Võ Thị Sáu,  phường Thanh Nhàn, quận Hai Bà Trưng, thành phố Hà Nội;\nNơi ở hiện tại: Số 8, ngõ 44 Võ Thị Sáu,  phường Thanh Nhàn, quận Hai Bà Trưng, thành phố Hà Nội;\nĐiện thoại: 0912908068;\n2.\tÔng: Thái Quang Nam; Ngày, tháng, năm sinh: 06/11/1962; CMND/CCCD số: 001062016663 do công an Khánh Hòa cấp ngày 13/09/2008; Quê quán: Quảng Phước, Quảng Điền, Thừa Thiên Huế; Hộ khẩu thường trú: Số 8, ngõ 44 Võ Thị Sáu, phường Thanh Nhàn, quận Hai Bà Trưng, thành phố Hà Nội; Nơi ở hiện tại: Số 8, ngõ 44 Võ Thị Sáu, phường Thanh Nhàn, quận Hai Bà Trưng, thành phố Hà Nội; Điện thoại: 0912256375;\n",
 			"settings":
 			{
-				"buffer_size": 2071,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
+				"buffer_size": 2140,
+				"line_ending": "Windows",
+				"name": "I.\tBÊN BÁN (sau đây gọi là “Bên A”), gồm:"
 			}
 		},
 		{
-			"contents": "1. Model\n- Tạo model: \n\tphp artisan make:mode ModelName\n\tphp artisan make:mode FolderName/ModelName\n\n- Create dữ liệu với Model\n\n\tModelName::create(array)\n\t->  [\n\t\t\t'column_name' => 'Value'\n\t\t]\n\n\t\tUser:\n\n\t\t[\n\t\t\t'name'  => 'Nguyen Van A',\n\t\t\t'email' => 'aaa@gmail.com'\n\t\t]\n\n\t\tInsert into table('column', 'column') values('', '');\n\n- fillable\n- set/getAttribute\n\n* Relation model\n\n\n* Seeder\n- Tạo: php artisan make:seeder UserTableSeeder\n- Chạy: php artisan db:seed\n\n* Relation (ORM)\n\t\t\tQuestions    -   Answer \n\t   \t\t   1  \t\t\t     N\nIn model:\thasMany         belongsTo\n\n\t\t\tExam\t\t\t\t   Question\n\t\t\t N \t\t\t\t\t      N\nIn model:\tbelongsToMany         belongsToMany\n\n\n* Query Builder\n- Những bạn thi nhiều nhất\n- Đề thi có nhiều người thi nhất\n- Những bạn thi kết quả cao nhất\n- Những bạn thi nhiều nhất theo khoảng thời gian\n- Top danh sách thi nhiều theo tuần, theo tháng\n\nData Sample\n- 1000 đề thi\n- Ngân hàng câu hỏi là 1000.000\n-> 4000.000 câu trả lời\n- User: 500\n- Tham gia thi: tùy các bạn không dưới 5000\n\n\n",
-			"file": "/D/laragon/www/LaravelClass.dev/Laravel7/documents/day4/document.md",
-			"file_size": 708,
-			"file_write_time": 132291021616537216,
+			"contents": "Khai giảng khoá LẬP TRÌNH HƯỚNG ĐỐI TƯỢNG chỉ với 150K\n\nNhằm đáp ứng cho những bạn đã biết PHP cơ bản rồi nhưng còn yếu phần OOP\n\nNỘI DUNG:\n\n✔ Class & Object\n✔ Properties & Method\n✔ Scope Access\n✔ Static\n✔ Constant\n✔ __construct & __destruct\n✔ Extents & Override\n✔ Magic Methods\n✔ Final Keyword\n✔ Object Cloning\n✔ Class Abstraction\n✔ Object Inheritance\n✔ Traits\n✔ Dependency injection\n✔ Singleton pattern\n✔ MVC Pattern\n✔ Facade Pattern\n",
 			"settings":
 			{
-				"buffer_size": 1006,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
+				"buffer_size": 436,
+				"line_ending": "Windows",
+				"name": "Khai giảng khoá LẬP TRÌNH HƯỚNG ĐỐI TƯỢNG chỉ với"
 			}
 		}
 	],
@@ -597,16 +594,43 @@
 	},
 	"expanded_folders":
 	[
-		"/C/Users/Khoi Pham/Desktop/Slider/Front-end-class",
-		"/D/laragon/www/LaravelClass.dev/Laravel7",
-		"/D/laragon/www/LaravelClass.dev/Laravel7/app",
-		"/D/laragon/www/LaravelClass.dev/Laravel7/database",
-		"/D/laragon/www/LaravelClass.dev/Laravel7/database/seeds",
-		"/D/laragon/www/LaravelClass.dev/Laravel7/documents",
-		"/D/laragon/www/LaravelClass.dev/Laravel7/documents/day4"
+		"/D/Training/Online/Oone",
+		"/D/Training/Online/Oone/Lesson3"
 	],
 	"file_history":
 	[
+		"/D/Training/Online/Oone/Lesson3/layout-demo.html",
+		"/D/Training/Online/Oone/Lesson3/Document.md",
+		"/D/Training/Online/Oone/Lesson3/box-model.html",
+		"/D/Training/Online/Oone/Lesson3/margin-padding.html",
+		"/D/Training/Online/Oone/Lesson3/width-height.html",
+		"/D/Training/Online/Oone/Lesson3/border-in-css.html",
+		"/D/Training/Online/Oone/Lesson3/text-in-css.html",
+		"/D/Training/Online/Oone/Lesson3/background-css.html",
+		"/D/Training/Online/Oone/Lesson3/last-child.html",
+		"/D/Training/Online/Oone/Lesson3/hover-selector.html",
+		"/D/Training/Online/Oone/Lesson3/before-after.html",
+		"/D/Training/Online/Oone/Lesson3/exam1.html",
+		"/D/Training/Online/Oone/Lesson2/Document.md",
+		"/D/Training/Online/Oone/Lesson1/Bai-tap-ve-nha/Hoàng Ca/Le_Hoang_Lesson1/Baitap2HTML.html",
+		"/D/Training/Online/Oone/Lesson1/Bai-tap-ve-nha/Ngọc Ánh/les1+2/index1.html",
+		"/D/Training/Online/Oone/Lesson1/Bai-tap-ve-nha/Quang/HTML/baithuchanh1.html",
+		"/D/Training/Online/Oone/Lesson1/Bai-tap-ve-nha/Diệu Linh/bai1/thuchanh1.html",
+		"/D/Training/Online/Oone/Lesson1/Bai-tap-ve-nha/Chí Bảo/lesson1/exam1.html",
+		"/C/Users/Khoi Pham/Desktop/Frontend/index.html",
+		"/C/Users/Khoi Pham/Desktop/Slider/Front-end-class/jquery/backtotop.html",
+		"/C/Users/Khoi Pham/Desktop/Slider/Front-end-class/jquery/Document.md",
+		"/C/Users/Khoi Pham/Desktop/Slider/Front-end-class/jquery/event.html",
+		"/C/Users/Khoi Pham/Desktop/Slider/Front-end-class/jquery/hidden-visible.html",
+		"/C/Users/Khoi Pham/Desktop/Slider/Front-end-class/jquery/form.html",
+		"/C/Users/Khoi Pham/Desktop/Slider/Front-end-class/jquery/exam2.html",
+		"/D/laragon/bin/nginx/nginx-1.16.0/conf/nginx.conf",
+		"/C/Users/Khoi Pham/Desktop/Slider/Front-end-class/sourcecode/whyusingcss.html",
+		"/C/Users/Khoi Pham/Desktop/Slider/Front-end-class/sourcecode/css/style.css",
+		"/C/Users/Khoi Pham/Desktop/Slider/Front-end-class/sourcecode/Document.md",
+		"/C/Users/Khoi Pham/Desktop/Slider/Front-end-class/sourcecode/exam3.html",
+		"/C/Users/Khoi Pham/Desktop/Slider/Front-end-class/sourcecode/exam1.html",
+		"/D/laragon/www/LaravelClass.dev/Laravel7/database/seeds/UserTableSeeder.php",
 		"/D/laragon/www/LaravelClass.dev/Laravel7/documents/day4/document.md",
 		"/D/laragon/www/LaravelClass.dev/Laravel7/app/Models/Question.php",
 		"/D/laragon/www/LaravelClass.dev/Laravel7/database/migrations/2020_03_19_125241_create_questions_table.php",
@@ -702,43 +726,11 @@
 		"/D/laragon/www/LaravelClass.dev/day1/Student.php",
 		"/D/laragon/www/LaravelClass.dev/PHP-OOP/index.php",
 		"/D/laragon/www/LaravelClass.dev/PHP-OOP/Student.php",
-		"/D/laragon/www/LaravelClass.dev/PHP-OOP/Person.php",
-		"/D/laragon/www/LaravelClass.dev/PHP-OOP/Document.md",
-		"/D/laragon/www/LaravelClass.dev/day3/Project/controllers/ProductController.php",
-		"/D/laragon/www/LaravelClass.dev/day3/Project/views/news/index.php",
-		"/D/laragon/www/LaravelClass.dev/day3/Project/controllers/NewsController.php",
-		"/D/laragon/www/LaravelClass.dev/day3/Project/views/products/index.php",
-		"/D/laragon/www/LaravelClass.dev/day3/Project/index.php",
-		"/D/laragon/www/LaravelClass.dev/day2/Dependency.php",
-		"/D/laragon/www/LaravelClass.dev/day3/index.php",
-		"/D/laragon/www/phpday8/index.php",
-		"/D/laragon/www/phpday8/Bootstrap/app.php",
-		"/D/laragon/www/LaravelClass.dev/day3/MVC",
-		"/D/laragon/www/phpday8/vendor/composer/ClassLoader.php",
-		"/D/laragon/www/phpday8/vendor/autoload.php",
-		"/D/laragon/www/LaravelClass.dev/day3/Database.php",
-		"/D/laragon/www/LaravelClass.dev/day3/Author.php",
-		"/D/laragon/www/LaravelClass.dev/day3/Blog.php",
-		"/C/Users/Khoi Pham/Desktop/FRONTENDCLASS/DAY1/page.html",
-		"/C/Users/Khoi Pham/Desktop/FRONTENDCLASS/DAY1/login.html",
-		"/C/Users/Khoi Pham/Desktop/FRONTENDCLASS/DAY1/table.html",
-		"/C/Users/Khoi Pham/Desktop/FRONTENDCLASS/DAY1/Document.md",
-		"/D/laragon/www/LaravelClass.dev/day2/Document.md",
-		"/D/laragon/www/LaravelClass.dev/day2/ConstructClass.php",
-		"/D/laragon/www/LaravelClass.dev/day2/StudentClass.php",
-		"/D/laragon/www/LaravelClass.dev/day2/Person.php",
-		"/D/laragon/www/LaravelClass.dev/day2/index.php",
-		"/D/laragon/www/phpday7/Singleton.php",
-		"/D/laragon/www/LaravelClass.dev/day1/TestAbstract.php",
-		"/D/laragon/www/LaravelClass.dev/day1/SwimInterface.php",
-		"/D/laragon/www/LaravelClass.dev/day1/TestInterface.php",
-		"/D/laragon/www/LaravelClass.dev/day1/Cat.php",
-		"/D/laragon/www/LaravelClass.dev/day1/Animal.php",
-		"/D/laragon/www/LaravelClass.dev/day1/Document.md"
+		"/D/laragon/www/LaravelClass.dev/PHP-OOP/Person.php"
 	],
 	"find":
 	{
-		"height": 38.0
+		"height": 36.0
 	},
 	"find_in_files":
 	{
@@ -835,30 +827,28 @@
 			[
 				{
 					"buffer": 0,
-					"file": "/D/laragon/www/LaravelClass.dev/Laravel7/database/seeds/UserTableSeeder.php",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 2071,
+						"buffer_size": 2140,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								429,
-								429
+								1742,
+								2139
 							]
 						],
 						"settings":
 						{
+							"auto_name": "I.\tBÊN BÁN (sau đây gọi là “Bên A”), gồm:",
 							"incomplete_sync": null,
-							"remote_loading": false,
-							"synced": false,
-							"syntax": "Packages/PHP/PHP.sublime-syntax"
+							"syntax": "Packages/Text/Plain text.tmLanguage"
 						},
 						"translation.x": 0.0,
-						"translation.y": 329.0,
+						"translation.y": 729.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 1,
@@ -866,31 +856,28 @@
 				},
 				{
 					"buffer": 1,
-					"file": "/D/laragon/www/LaravelClass.dev/Laravel7/documents/day4/document.md",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1006,
+						"buffer_size": 436,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1005,
-								1005
+								435,
+								130
 							]
 						],
 						"settings":
 						{
+							"auto_name": "Khai giảng khoá LẬP TRÌNH HƯỚNG ĐỐI TƯỢNG chỉ với",
 							"incomplete_sync": null,
-							"remote_loading": false,
-							"synced": false,
-							"syntax": "Packages/Markdown/Markdown.sublime-syntax",
-							"translate_tabs_to_spaces": false
+							"syntax": "Packages/Text/Plain text.tmLanguage"
 						},
 						"translation.x": 0.0,
-						"translation.y": 996.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
@@ -901,11 +888,11 @@
 	],
 	"incremental_find":
 	{
-		"height": 38.0
+		"height": 36.0
 	},
 	"input":
 	{
-		"height": 103.0
+		"height": 54.0
 	},
 	"layout":
 	{
@@ -946,7 +933,7 @@
 	"project": "master.blade.sublime-project",
 	"replace":
 	{
-		"height": 72.0
+		"height": 68.0
 	},
 	"save_all_on_build": true,
 	"select_file":
@@ -1336,7 +1323,7 @@
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 232.0,
+	"side_bar_width": 246.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{
