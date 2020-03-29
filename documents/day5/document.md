@@ -54,3 +54,11 @@ Data Sample
 - Tham gia thi: tùy các bạn không dưới 5000
 
 
+* Factory
+- Data Sample: $faker
+- User
+- Question
+	Answers
+- Exams
+- Assign Question -> Exam
+- Results

@@ -4,8 +4,40 @@
 		"selected_items":
 		[
 			[
+				"text",
+				"text-align\tproperty"
+			],
+			[
+				"mar",
+				"margin\tproperty"
+			],
+			[
+				"ma",
+				"margin-right\tproperty"
+			],
+			[
+				"lis",
+				"list-style-type\tproperty"
+			],
+			[
+				"wo",
+				"word-spacing\tproperty"
+			],
+			[
+				"list-sty",
+				"list-style-type\tproperty"
+			],
+			[
+				"bo",
+				"both\tclear"
+			],
+			[
 				"padd",
-				"padding-left\tproperty"
+				"padding\tproperty"
+			],
+			[
+				"use",
+				"users"
 			],
 			[
 				"bord",
@@ -44,10 +76,6 @@
 				"line-height\tproperty"
 			],
 			[
-				"bo",
-				"bottom\tproperty"
-			],
-			[
 				"inlin",
 				"inline-block\tdisplay"
 			],
@@ -62,10 +90,6 @@
 			[
 				"con",
 				"content\t = '' Style CSS"
-			],
-			[
-				"mar",
-				"margin-bottom\tproperty"
 			],
 			[
 				"bac",
@@ -96,10 +120,6 @@
 				"align-content\tproperty"
 			],
 			[
-				"use",
-				"username"
-			],
-			[
 				"cat",
 				"cateId"
 			],
@@ -110,10 +130,6 @@
 			[
 				"col",
 				"color\tproperty"
-			],
-			[
-				"lis",
-				"list-style\tproperty"
 			],
 			[
 				"min",
@@ -152,10 +168,6 @@
 				"StudentClass\tStudentClass"
 			],
 			[
-				"text",
-				"text-transform\tproperty"
-			],
-			[
 				"margin",
 				"margin-top\tproperty"
 			],
@@ -178,10 +190,6 @@
 			[
 				"get",
 				"getElementsByClassName\tmethod"
-			],
-			[
-				"ma",
-				"margin-bottom\tproperty"
 			],
 			[
 				"fle",
@@ -506,37 +514,11 @@
 			[
 				"is_",
 				"is_numeric"
-			],
-			[
-				"is_in",
-				"is_int"
-			],
-			[
-				"is",
-				"is_float"
 			]
 		]
 	},
 	"buffers":
 	[
-		{
-			"contents": "I.\tBÊN BÁN (sau đây gọi là “Bên A”), gồm:\n1.\tÔng: Trần Thái Quang Hoàng        Ngày, tháng, năm sinh: 06/06/1983\nCMND/CCCD số: 225219898 do công an Khánh Hòa cấp ngày 13/09/2008\nQuê quán: Hải Phòng;\nHộ khẩu thường trú: 64 Đồng Nai, Nha Trang, Khánh Hòa;\nNơi ở hiện tại: Vinhome Reverside Hướng Dương 30-3\nĐiện thoại: 0915019977\n2.\tBà: Đỗ Lan Phương        Ngày, tháng, năm sinh: 30/03/1983;\nCMND/CCCD số: 001183002285 do cục trưởng cục cảnh sát ĐKQL cư trú;\nvà DLQG về dân cư cấp ngày 17/06/2014;\nQuê quán: Hà Nội;\nHộ khẩu thường trú: 25 xóm Hạ Hồi, Trần Hưng Đạo, Hoàn Kiếm, Hà Nội;\nNơi ở hiện tại: Vinhome Reverside Hướng Dương 30-3\nĐiện thoại: 0906219779\n(Ông Trần Thái Quang Hoàng và bà Đỗ Lan Phương hiện đang là vợ chồng hợp pháp, theo Giấy chứng nhận kết hôn do UBND phường Trần Hưng Đạo, quận Hoàn Kiếm, thành phố Hà Nội, cấp ngày 04 tháng 02 năm 2010).\nII.\tBÊN MUA (sau đây gọi là “Bên B”): \nÔng: Phạm Kỳ Khôi        Ngày, tháng, năm sinh: 17/10/1990 \nCCCD số: 026090002796 do Cục Cảnh sát ĐKDL cứ trú và DLQG về dân cư cấp ngày 12/01/2017;\nQuê quán: Sơn Lôi, Bình Xuyên, Vĩnh Phúc;\nHộ khẩu thường trú: Thôn Ái Văn, xã Sơn Lôi, huyện Bình Xuyên, tỉnh Vĩnh Phúc.;\nNơi ở hiện tại: Thôn Ái Văn, xã Sơn Lôi, huyện Bình Xuyên, tỉnh Vĩnh Phúc;\nĐiện thoại: 0942 668 586\nIII.\tBÊN LIÊN QUAN (sau đây gọi là “Bên C”):\n1.\tBà: Cát Thị Thanh Hà        Ngày, tháng, năm sinh: 10/07/1968;\nCMND/CCCD số: 027168000173 do cục cảnh sát ĐKQL cư trú và DLQG về dân cư cấp ngày 13/03/2018;\nQuê quán: Đường Lâm, Sơn Tây, Hà Nội;\nHộ khẩu thường trú: Số 8, ngõ 44 Võ Thị Sáu,  phường Thanh Nhàn, quận Hai Bà Trưng, thành phố Hà Nội;\nNơi ở hiện tại: Số 8, ngõ 44 Võ Thị Sáu,  phường Thanh Nhàn, quận Hai Bà Trưng, thành phố Hà Nội;\nĐiện thoại: 0912908068;\n2.\tÔng: Thái Quang Nam; Ngày, tháng, năm sinh: 06/11/1962; CMND/CCCD số: 001062016663 do công an Khánh Hòa cấp ngày 13/09/2008; Quê quán: Quảng Phước, Quảng Điền, Thừa Thiên Huế; Hộ khẩu thường trú: Số 8, ngõ 44 Võ Thị Sáu, phường Thanh Nhàn, quận Hai Bà Trưng, thành phố Hà Nội; Nơi ở hiện tại: Số 8, ngõ 44 Võ Thị Sáu, phường Thanh Nhàn, quận Hai Bà Trưng, thành phố Hà Nội; Điện thoại: 0912256375;\n",
-			"settings":
-			{
-				"buffer_size": 2140,
-				"line_ending": "Windows",
-				"name": "I.\tBÊN BÁN (sau đây gọi là “Bên A”), gồm:"
-			}
-		},
-		{
-			"contents": "Khai giảng khoá LẬP TRÌNH HƯỚNG ĐỐI TƯỢNG chỉ với 150K\n\nNhằm đáp ứng cho những bạn đã biết PHP cơ bản rồi nhưng còn yếu phần OOP\n\nNỘI DUNG:\n\n✔ Class & Object\n✔ Properties & Method\n✔ Scope Access\n✔ Static\n✔ Constant\n✔ __construct & __destruct\n✔ Extents & Override\n✔ Magic Methods\n✔ Final Keyword\n✔ Object Cloning\n✔ Class Abstraction\n✔ Object Inheritance\n✔ Traits\n✔ Dependency injection\n✔ Singleton pattern\n✔ MVC Pattern\n✔ Facade Pattern\n",
-			"settings":
-			{
-				"buffer_size": 436,
-				"line_ending": "Windows",
-				"name": "Khai giảng khoá LẬP TRÌNH HƯỚNG ĐỐI TƯỢNG chỉ với"
-			}
-		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -594,11 +576,26 @@
 	},
 	"expanded_folders":
 	[
-		"/D/Training/Online/Oone",
-		"/D/Training/Online/Oone/Lesson3"
+		"/D/Training/Online/Oone/Lesson4",
+		"/D/Training/Online/Oone/Lesson4/images"
 	],
 	"file_history":
 	[
+		"/D/Training/Online/Oone/Lesson4/Document.md",
+		"/D/Training/Online/Oone/Lesson4/practice1.html",
+		"/D/Training/Online/Oone/Lesson4/css/practice1.css",
+		"/D/Training/Online/Oone/Lesson4/exam2.html",
+		"/D/Training/Online/Oone/Lesson4/css/exam2.css",
+		"/D/laragon/www/LaravelClass.dev/Laravel7/documents/day5/document.md",
+		"/D/laragon/www/LaravelClass.dev/Laravel7/database/seeds/UserPracticePerExamSeeder.php",
+		"/D/laragon/www/LaravelClass.dev/Laravel7/database/seeds/AssignQuestionToExamSeeder.php",
+		"/D/laragon/www/LaravelClass.dev/Laravel7/database/seeds/UserTableSeeder.php",
+		"/D/laragon/www/LaravelClass.dev/Laravel7/database/seeds/DatabaseSeeder.php",
+		"/D/laragon/www/LaravelClass.dev/Laravel7/database/seeds/QuestionTableSeeder.php",
+		"/D/laragon/www/LaravelClass.dev/Laravel7/database/seeds/ExamTableSeeder.php",
+		"/D/laragon/www/LaravelClass.dev/Laravel7/database/factories/ExamFactory.php",
+		"/D/laragon/www/LaravelClass.dev/Laravel7/database/factories/QuestionFactory.php",
+		"/D/laragon/www/LaravelClass.dev/Laravel7/database/factories/UserFactory.php",
 		"/D/Training/Online/Oone/Lesson3/layout-demo.html",
 		"/D/Training/Online/Oone/Lesson3/Document.md",
 		"/D/Training/Online/Oone/Lesson3/box-model.html",
@@ -630,7 +627,6 @@
 		"/C/Users/Khoi Pham/Desktop/Slider/Front-end-class/sourcecode/Document.md",
 		"/C/Users/Khoi Pham/Desktop/Slider/Front-end-class/sourcecode/exam3.html",
 		"/C/Users/Khoi Pham/Desktop/Slider/Front-end-class/sourcecode/exam1.html",
-		"/D/laragon/www/LaravelClass.dev/Laravel7/database/seeds/UserTableSeeder.php",
 		"/D/laragon/www/LaravelClass.dev/Laravel7/documents/day4/document.md",
 		"/D/laragon/www/LaravelClass.dev/Laravel7/app/Models/Question.php",
 		"/D/laragon/www/LaravelClass.dev/Laravel7/database/migrations/2020_03_19_125241_create_questions_table.php",
@@ -638,7 +634,6 @@
 		"/D/laragon/www/LaravelClass.dev/Laravel7/app/Models/Exam.php",
 		"/D/laragon/www/LaravelClass.dev/Laravel7/database/migrations/2020_03_19_125729_create_exam_questions_table.php",
 		"/D/laragon/www/LaravelClass.dev/Laravel7/database/migrations/2020_03_19_125534_create_answers_table.php",
-		"/D/laragon/www/LaravelClass.dev/Laravel7/database/seeds/DatabaseSeeder.php",
 		"/D/laragon/www/LaravelClass.dev/Laravel7/database/migrations/2014_10_12_000000_create_users_table.php",
 		"/D/laragon/www/LaravelClass.dev/Laravel7/app/Models/User.php",
 		"/D/laragon/www/LaravelClass.dev/Laravel7/app/User.php",
@@ -713,24 +708,11 @@
 		"/D/laragon/www/LaravelClass.dev/Laravel7/resources/views/product.blade.php",
 		"/D/laragon/www/LaravelClass.dev/Laravel7/resources/views/register.blade.php",
 		"/D/laragon/www/LaravelClass.dev/Laravel7/resources/views/test.blade.php",
-		"/D/laragon/www/LaravelClass.dev/Laravel7/resources/views/welcome.blade.php",
-		"/D/laragon/www/LaravelClass.dev/Laravel7/public/index.php",
-		"/D/Project/AppServ/www/bookonline/composer.json",
-		"/D/laragon/www/LaravelClass.dev/Laravel7/resources/views/demo.blade.php",
-		"/D/laragon/www/LaravelClass.dev/Laravel7/resources/views/components/menu.blade.php",
-		"/D/laragon/www/LaravelClass.dev/Laravel7/app/View/Components/Menu.php",
-		"/D/laragon/www/LaravelClass.dev/Laravel7/app/View/Components/Sidebar.php",
-		"/D/laragon/www/LaravelClass.dev/Laravel7/resources/views/components/sidebar.blade.php",
-		"/D/laragon/www/LaravelClass.dev/Laravel7/public/style.css",
-		"/D/laragon/www/LaravelClass.dev/day1/index.php",
-		"/D/laragon/www/LaravelClass.dev/day1/Student.php",
-		"/D/laragon/www/LaravelClass.dev/PHP-OOP/index.php",
-		"/D/laragon/www/LaravelClass.dev/PHP-OOP/Student.php",
-		"/D/laragon/www/LaravelClass.dev/PHP-OOP/Person.php"
+		"/D/laragon/www/LaravelClass.dev/Laravel7/resources/views/welcome.blade.php"
 	],
 	"find":
 	{
-		"height": 36.0
+		"height": 62.0
 	},
 	"find_in_files":
 	{
@@ -822,77 +804,18 @@
 	"groups":
 	[
 		{
-			"selected": 1,
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 2140,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1742,
-								2139
-							]
-						],
-						"settings":
-						{
-							"auto_name": "I.\tBÊN BÁN (sau đây gọi là “Bên A”), gồm:",
-							"incomplete_sync": null,
-							"syntax": "Packages/Text/Plain text.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 729.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 436,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								435,
-								130
-							]
-						],
-						"settings":
-						{
-							"auto_name": "Khai giảng khoá LẬP TRÌNH HƯỚNG ĐỐI TƯỢNG chỉ với",
-							"incomplete_sync": null,
-							"syntax": "Packages/Text/Plain text.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				}
 			]
 		}
 	],
 	"incremental_find":
 	{
-		"height": 36.0
+		"height": 62.0
 	},
 	"input":
 	{
-		"height": 54.0
+		"height": 75.0
 	},
 	"layout":
 	{
@@ -933,7 +856,7 @@
 	"project": "master.blade.sublime-project",
 	"replace":
 	{
-		"height": 68.0
+		"height": 120.0
 	},
 	"save_all_on_build": true,
 	"select_file":
@@ -1323,7 +1246,7 @@
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 246.0,
+	"side_bar_width": 111.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{
