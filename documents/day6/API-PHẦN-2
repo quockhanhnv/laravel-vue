@@ -90,6 +90,64 @@ domain: localhost:8000
     * Request:
     * Response:
 
+* Validate
+    php artisan make:request ExamRequest
+
+    Exam: Create | Udpate
+    Condition: Name is require
+
+* Question API
+
+- Create new Question
+    * URI: api/v1/question
+    * Method: POST
+    * Request:
+        {
+            content: 'Question content',
+            answers: [
+                {
+                    content: 'Answer 1 content',
+                    correct: false,
+                },
+                {
+                    content: 'Answer 2 content',
+                    correct: false,
+                },
+                {
+                    content: 'Answer 3 content',
+                    correct: false,
+                },
+                {
+                    content: 'Answer 4 content',
+                    correct: true,
+                }
+            ]
+        }
+
+        Must be validation?
+            - Content: require
+            - Câu hỏi phải có tối thiểu là 2 câu trả lời
+            - Nôi dung câu trả lời bắt buộc nhập
+            - Một câu hỏi, chỉ có một câu trả lời đúng
+            - Nội dung câu trả lời không được giống nhau
+            - Phải có ít nhất 1 câu trả lời đúng
+            - Nội dung câu hỏi không được nhỏ hơn 12 ký tự
+            - Nội dung câu trả lời không được bỏ trống,
+            - Nội dung câu trả lời không được nhỏ hơn 3 ký tự,
+            - giá trị correct chỉ được phép là true hoặc false
 
 
 
+
+    * Response:
+        {
+            "status": true,
+            "code": 200,
+            "exam": {
+                "id": 32,
+                "name": "Exam Covid-20",
+                "updated_at": "2020-03-29T14:21:16.000000Z",
+                "created_at": "2020-03-29T14:21:16.000000Z"
+            }
+        }
+    

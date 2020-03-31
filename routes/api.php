@@ -21,4 +21,7 @@ use Illuminate\Support\Facades\Route;
 Route::namespace('Api')->prefix('v1')->group(function() {
 	Route::resource('exams', 'ExamController')
 		->except('create', 'edit');
+
+	Route::resource('questions', 'QuestionController')
+		->except('create', 'edit');
 });
