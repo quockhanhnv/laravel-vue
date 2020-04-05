@@ -10,6 +10,7 @@ use Symfony\Component\HttpFoundation\Response;
 use App\Rules\AnswerNumberValidate;
 use App\Rules\RequireHaveCorrectAnswerValidate;
 use App\Rules\AnswerContentUniqueValidate;
+use App\Rules\UniqueAnswerCorrectValidate;
 
 class QuestionRequest extends FormRequest
 {
@@ -37,8 +38,10 @@ class QuestionRequest extends FormRequest
                 new AnswerNumberValidate($request->answers),
                 new RequireHaveCorrectAnswerValidate($request->answers),
                 new AnswerContentUniqueValidate($request->answers),
+                new UniqueAnswerCorrectValidate($request->answers),
             ],
-            'answers.*.content' => ['required', 'min:3']
+            'answers.*.content' => ['required', 'min:3'],
+            'answers.*.correct' => ['boolean'],
         ];
     }
 
@@ -56,8 +59,11 @@ class QuestionRequest extends FormRequest
     public function messages()
     {
         return [
-            'content.required' => 'Vui lòng nhập nội dung câu hỏi',
-            'content.min'      => 'Nội dung câu hỏi không được nhỏ hơn 12 ký tự',
+            'content.required'  => 'Vui lòng nhập nội dung câu hỏi',
+            'content.min'       => 'Nội dung câu hỏi không được nhỏ hơn 12 ký tự',
+            'answers.*.content.required' => 'Nội dung câu trả lời không được bỏ trống',
+            'answers.*.content.min' => 'Nội dung câu trả không được nhỏ hơn 3 ký tự',
+            'answers.*.correct.boolean' => 'Câu trả lời đúng chỉ được phép là true hoặc false'
         ];
     }
 }
