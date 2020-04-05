@@ -77,6 +77,8 @@ class ExamController extends Controller
         try {
             $exam = $this->examService->save(['name' => $request->name], $id);
 
+            $this->examService->attachQuestion($request->questions, $id);
+
             return response()->json([
                 'status' => true,
                 'code'   => Response::HTTP_OK,

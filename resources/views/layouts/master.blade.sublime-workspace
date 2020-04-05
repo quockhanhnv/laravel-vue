@@ -4,6 +4,102 @@
 		"selected_items":
 		[
 			[
+				"answ",
+				"answers"
+			],
+			[
+				"questio",
+				"questionId"
+			],
+			[
+				"answe",
+				"answerService"
+			],
+			[
+				"id",
+				"ids"
+			],
+			[
+				"answr",
+				"answers"
+			],
+			[
+				"text",
+				"text-indent\tproperty"
+			],
+			[
+				"margi",
+				"margin-top\tproperty"
+			],
+			[
+				"font",
+				"font-family\tproperty"
+			],
+			[
+				"mar",
+				"margin-top\tproperty"
+			],
+			[
+				"s",
+				"sans-serif\tfont-family"
+			],
+			[
+				"li",
+				"list-style-type\tproperty"
+			],
+			[
+				"ma",
+				"margin-top\tproperty"
+			],
+			[
+				"c",
+				"cover\tbackground-size"
+			],
+			[
+				"backgrou",
+				"background-size\tproperty"
+			],
+			[
+				"tex",
+				"text-align\tproperty"
+			],
+			[
+				"pad",
+				"padding\tproperty"
+			],
+			[
+				"fon",
+				"font-size\tproperty"
+			],
+			[
+				"bo",
+				"border-width\tproperty"
+			],
+			[
+				"rb",
+				"rgba()\tcolor"
+			],
+			[
+				"borde",
+				"border-radius\tproperty"
+			],
+			[
+				"margin",
+				"margin\tproperty"
+			],
+			[
+				"tet",
+				"text-align\tproperty"
+			],
+			[
+				"text-a",
+				"text-align-last\tproperty"
+			],
+			[
+				"rgb",
+				"rgba()\tcolor"
+			],
+			[
 				"requ",
 				"Request"
 			],
@@ -20,36 +116,12 @@
 				"response"
 			],
 			[
-				"c",
-				"content"
-			],
-			[
-				"bo",
-				"border-bottom\tproperty"
-			],
-			[
-				"mar",
-				"margin-bottom\tproperty"
-			],
-			[
-				"ma",
-				"margin-right\tproperty"
-			],
-			[
 				"marg",
 				"margin-bottom\tproperty"
 			],
 			[
-				"li",
-				"list-style-type\tproperty"
-			],
-			[
 				"fa",
 				"FadeIn"
-			],
-			[
-				"text",
-				"text-align\tproperty"
 			],
 			[
 				"lis",
@@ -78,10 +150,6 @@
 			[
 				"border-ra",
 				"border-top-right-radius\tproperty"
-			],
-			[
-				"borde",
-				"border-width\tproperty"
 			],
 			[
 				"u",
@@ -196,10 +264,6 @@
 				"StudentClass\tStudentClass"
 			],
 			[
-				"margin",
-				"margin-top\tproperty"
-			],
-			[
 				"me",
 				"message\t: DOMString ErrorEvent"
 			],
@@ -228,10 +292,6 @@
 				"border-radius\tproperty"
 			],
 			[
-				"fon",
-				"font-size\tproperty"
-			],
-			[
 				"fo",
 				"font-size\tproperty"
 			],
@@ -240,20 +300,12 @@
 				"getElementsByClassName\t( classNames: DOMString ): HTMLCollection Element"
 			],
 			[
-				"font",
-				"font-size\tproperty"
-			],
-			[
 				"list",
 				"list-style-type\tproperty"
 			],
 			[
 				"p",
 				"padding\tproperty"
-			],
-			[
-				"tex",
-				"text-align\tproperty"
 			],
 			[
 				"w",
@@ -332,10 +384,6 @@
 				"space-between\tjustify-content"
 			],
 			[
-				"s",
-				"space-between\tjustify-content"
-			],
-			[
 				"flex",
 				"flex-direction\tproperty"
 			],
@@ -380,10 +428,6 @@
 				"localStorage\tvar"
 			],
 			[
-				"pad",
-				"padding\tproperty"
-			],
-			[
 				"fi",
 				"figure\tTag"
 			],
@@ -402,10 +446,6 @@
 			[
 				"pr",
 				"price"
-			],
-			[
-				"margi",
-				"margin-top\tproperty"
 			],
 			[
 				"margin-l",
@@ -474,129 +514,43 @@
 			[
 				"array_keys",
 				"array_key_exists"
-			],
-			[
-				"text-in",
-				"text-indent\tproperty"
-			],
-			[
-				"array_un",
-				"array_unshift"
-			],
-			[
-				"arra",
-				"arrayOne"
-			],
-			[
-				"str",
-				"strings"
-			],
-			[
-				"stru",
-				"strtoupper"
-			],
-			[
-				"array_key",
-				"array_keys"
-			],
-			[
-				"repeat",
-				"repeat-x\tbackground-repeat"
-			],
-			[
-				"he",
-				"height\tAttr"
-			],
-			[
-				"na",
-				"names"
-			],
-			[
-				"fil",
-				"fileName"
 			]
 		]
 	},
 	"buffers":
 	[
 		{
-			"file": "/D/laragon/www/LaravelClass.dev/Laravel7/documents/day6/API-PHẦN-2",
+			"file": "/D/laragon/www/LaravelClass.dev/Laravel7/documents/day8/API-PHẦN-3",
 			"settings":
 			{
-				"buffer_size": 4005,
+				"buffer_size": 4211,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "/D/laragon/www/LaravelClass.dev/Laravel7/app/Rules/RequireHaveCorrectAnswerValidate.php",
-			"settings":
-			{
-				"buffer_size": 946,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "/D/laragon/www/LaravelClass.dev/Laravel7/app/Rules/AnswerContentUniqueValidate.php",
-			"settings":
-			{
-				"buffer_size": 935,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "/D/laragon/www/LaravelClass.dev/Laravel7/app/Rules/AnswerNumberValidate.php",
-			"settings":
-			{
-				"buffer_size": 756,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "/D/laragon/www/LaravelClass.dev/Laravel7/app/Http/Controllers/Api/QuestionController.php",
-			"settings":
-			{
-				"buffer_size": 472,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "/D/laragon/www/LaravelClass.dev/Laravel7/app/Http/Requests/Api/QuestionRequest.php",
-			"settings":
-			{
-				"buffer_size": 1750,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "/D/laragon/www/LaravelClass.dev/Laravel7/routes/api.php",
-			"settings":
-			{
-				"buffer_size": 795,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
 			}
 		},
 		{
 			"file": "/D/laragon/www/LaravelClass.dev/Laravel7/app/Http/Controllers/Api/ExamController.php",
 			"settings":
 			{
-				"buffer_size": 4030,
+				"buffer_size": 4105,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "/D/laragon/www/LaravelClass.dev/Laravel7/app/Http/Requests/Api/ExamRequest.php",
+			"file": "/D/laragon/www/LaravelClass.dev/Laravel7/app/Services/ExamService.php",
 			"settings":
 			{
-				"buffer_size": 1240,
+				"buffer_size": 1147,
 				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/D/laragon/www/LaravelClass.dev/Laravel7/database/migrations/2020_03_19_125729_create_exam_questions_table.php",
+			"settings":
+			{
+				"buffer_size": 718,
 				"line_ending": "Unix"
 			}
 		}
@@ -664,21 +618,52 @@
 		"/D/laragon/www/LaravelClass.dev/Laravel7/app/Http/Controllers/Api",
 		"/D/laragon/www/LaravelClass.dev/Laravel7/app/Http/Requests",
 		"/D/laragon/www/LaravelClass.dev/Laravel7/app/Http/Requests/Api",
+		"/D/laragon/www/LaravelClass.dev/Laravel7/app/Models",
 		"/D/laragon/www/LaravelClass.dev/Laravel7/app/Rules",
-		"/D/laragon/www/LaravelClass.dev/Laravel7/resources"
+		"/D/laragon/www/LaravelClass.dev/Laravel7/app/Services",
+		"/D/laragon/www/LaravelClass.dev/Laravel7/database",
+		"/D/laragon/www/LaravelClass.dev/Laravel7/database/migrations"
 	],
 	"file_history":
 	[
+		"/D/laragon/www/LaravelClass.dev/Laravel7/app/Http/Controllers/Api/QuestionController.php",
 		"/D/laragon/www/LaravelClass.dev/Laravel7/vendor/symfony/http-foundation/Response.php",
+		"/D/laragon/www/LaravelClass.dev/Laravel7/app/Services/QuestionService.php",
+		"/D/laragon/www/LaravelClass.dev/Laravel7/app/Models/Answer.php",
+		"/D/laragon/www/LaravelClass.dev/Laravel7/app/Services/AnswerService.php",
+		"/D/laragon/www/LaravelClass.dev/Laravel7/app/Models/Question.php",
+		"/D/laragon/www/LaravelClass.dev/Laravel7/app/Http/Requests/Api/QuestionRequest.php",
+		"/D/laragon/www/LaravelClass.dev/Laravel7/app/Rules/UniqueAnswerCorrectValidate.php",
+		"/C/Users/Khoi Pham/Desktop/Slider/Front-end-class/Frontend-Online-Class/x-menu.html",
+		"/C/Users/Khoi Pham/Desktop/Slider/Front-end-class/Frontend-Online-Class/y-menu.html",
+		"/C/Users/Khoi Pham/Desktop/Slider/Front-end-class/Frontend-Online-Class/css/menu.css",
+		"/C/Users/Khoi Pham/Desktop/Slider/Front-end-class/Frontend-Online-Class/css/style.css",
+		"/C/Users/Khoi Pham/Desktop/Slider/Front-end-class/Frontend-Online-Class/css/y-menu.css",
+		"/C/Users/Khoi Pham/Desktop/Slider/Front-end-class/Frontend-Online-Class/css/y-menu.html",
+		"/C/Users/Khoi Pham/Desktop/Slider/Front-end-class/Frontend-Online-Class/Document.md",
+		"/C/Users/Khoi Pham/Desktop/Slider/Front-end-class/Frontend-Online-Class/menu.css",
+		"/C/Users/Khoi Pham/Desktop/Slider/Front-end-class/Frontend-Online-Class/position.html",
+		"/C/Users/Khoi Pham/Desktop/Slider/Front-end-class/FrontendClass/Document.md",
+		"/C/Users/Khoi Pham/Desktop/Slider/Front-end-class/FrontendClass/css/style.css",
+		"/C/Users/Khoi Pham/Desktop/Slider/Front-end-class/FrontendClass/index.html",
+		"/C/Users/Khoi Pham/Desktop/consolution/index.html",
+		"/C/Users/Khoi Pham/Desktop/Slider/Front-end-class/FrontendClass/css/ionicons.min.css",
+		"/C/Users/Khoi Pham/Desktop/Slider/Front-end-class/FrontendClass/css/icomoon.css",
+		"/C/Users/Khoi Pham/Desktop/Slider/Front-end-class/FrontendClass/css/flaticon.css",
+		"/D/laragon/www/LaravelClass.dev/Laravel7/app/Http/Requests/Api/ExamRequest.php",
+		"/D/laragon/www/LaravelClass.dev/Laravel7/app/Http/Controllers/Api/ExamController.php",
+		"/D/laragon/www/LaravelClass.dev/Laravel7/routes/api.php",
+		"/D/laragon/www/LaravelClass.dev/Laravel7/app/Rules/AnswerNumberValidate.php",
+		"/D/laragon/www/LaravelClass.dev/Laravel7/app/Rules/AnswerContentUniqueValidate.php",
+		"/D/laragon/www/LaravelClass.dev/Laravel7/app/Rules/RequireHaveCorrectAnswerValidate.php",
+		"/D/laragon/www/LaravelClass.dev/Laravel7/documents/day6/API-PHẦN-2",
 		"/C/Users/Khoi Pham/Desktop/Slider/Front-end-class/jquery/comment.html",
 		"/C/Users/Khoi Pham/Desktop/Slider/Front-end-class/jquery/lodash.html",
 		"/C/Users/Khoi Pham/Desktop/Slider/Front-end-class/jquery/validate-form.html",
 		"/D/laragon/www/LaravelClass.dev/Laravel7/documents/day6/API",
-		"/D/laragon/www/LaravelClass.dev/Laravel7/app/Http/Controllers/Api/ExamController.php",
 		"/D/laragon/www/LaravelClass.dev/Laravel7/app/Services/ExamService.php",
 		"/D/laragon/www/LaravelClass.dev/Laravel7/app/Models/Exam.php",
 		"/D/laragon/www/LaravelClass.dev/Laravel7/config/app.php",
-		"/D/laragon/www/LaravelClass.dev/Laravel7/routes/api.php",
 		"/D/laragon/www/LaravelClass.dev/Laravel7/routes/web.php",
 		"/D/laragon/www/LaravelClass.dev/Laravel7/.env",
 		"/C/Users/Khoi Pham/Desktop/Slider/Front-end-class/jquery/Document.md",
@@ -731,9 +716,7 @@
 		"/C/Users/Khoi Pham/Desktop/Slider/Front-end-class/sourcecode/exam3.html",
 		"/C/Users/Khoi Pham/Desktop/Slider/Front-end-class/sourcecode/exam1.html",
 		"/D/laragon/www/LaravelClass.dev/Laravel7/documents/day4/document.md",
-		"/D/laragon/www/LaravelClass.dev/Laravel7/app/Models/Question.php",
 		"/D/laragon/www/LaravelClass.dev/Laravel7/database/migrations/2020_03_19_125241_create_questions_table.php",
-		"/D/laragon/www/LaravelClass.dev/Laravel7/app/Models/Answer.php",
 		"/D/laragon/www/LaravelClass.dev/Laravel7/database/migrations/2020_03_19_125729_create_exam_questions_table.php",
 		"/D/laragon/www/LaravelClass.dev/Laravel7/database/migrations/2020_03_19_125534_create_answers_table.php",
 		"/D/laragon/www/LaravelClass.dev/Laravel7/database/migrations/2014_10_12_000000_create_users_table.php",
@@ -770,33 +753,7 @@
 		"/D/laragon/www/LaravelClass.dev/Laravel7/resources/views/backend/news/index.blade.php",
 		"/D/laragon/www/LaravelClass.dev/Laravel7/resources/views/backend/users/index.blade.php",
 		"/D/laragon/www/LaravelClass.dev/Laravel7/resources/views/backend/dashboard/index.blade.php",
-		"/D/laragon/www/LaravelClass.dev/Laravel7/resources/views/backend/categories/index.blade.php",
-		"/D/laragon/www/LaravelClass.dev/Laravel7/resources/views/backend/partitions/table_view.blade.php",
-		"/D/Project/AppServ/www/bookonline/resources/views/settings/courses/index.blade.php",
-		"/D/Project/AppServ/www/bookonline/routes/web.php",
-		"/D/Project/AppServ/www/bookonline/app/Http/Controllers/CourseController.php",
-		"/D/Project/AppServ/www/bookonline/resources/views/settings/courses/show.blade.php",
-		"/D/Project/AppServ/www/bookonline/resources/lang/vi/settings.php",
-		"/D/Project/AppServ/www/bookonline/app/Entities/Repos/EntityRepo.php",
-		"/D/Project/AppServ/www/bookonline/app/Entities/Repos/CourseRepo.php",
-		"/D/laragon/www/LaravelClass.dev/Laravel7/documents/day2/Documents.md",
-		"/D/Project/AppServ/www/bookonline/resources/views/settings/navbar.blade.php",
-		"/D/Project/AppServ/www/bookonline/resources/views/common/home.blade.php",
-		"/D/Project/AppServ/www/bookonline/.gitignore",
-		"/D/Project/AppServ/www/bookonline/resources/assets/sass/home_default.scss",
-		"/D/Project/AppServ/www/bookonline/resources/assets/sass/styles.scss",
-		"/D/Project/AppServ/www/bookonline/resources/assets/sass/_reset.scss",
-		"/D/Project/AppServ/www/bookonline/resources/assets/sass/_spacing.scss",
-		"/D/Project/AppServ/www/bookonline/resources/lang/vi/entities.php",
-		"/D/Project/AppServ/www/bookonline/resources/lang/vi/common.php",
-		"/D/Project/AppServ/www/bookonline/package.json",
-		"/D/Project/AppServ/www/bookonline/resources/lang/vi/auth.php",
-		"/D/Project/AppServ/www/bookonline/resources/assets/sass/_html.scss",
-		"/D/Project/AppServ/www/bookonline/resources/views/common/header.blade.php",
-		"/D/Project/AppServ/www/bookonline/app/Http/Controllers/Frontend/HomeController.php",
-		"/D/Project/AppServ/www/bookonline/app/Http/Controllers/HomeController.php",
-		"/D/Project/AppServ/www/bookonline/app/Config/app.php",
-		"/D/Project/AppServ/www/bookonline/app/Providers/AppServiceProvider.php"
+		"/D/laragon/www/LaravelClass.dev/Laravel7/resources/views/backend/categories/index.blade.php"
 	],
 	"find":
 	{
@@ -815,6 +772,9 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"        \n",
+			"404",
+			"icon",
 			"422",
 			"Response",
 			"422",
@@ -897,24 +857,24 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 1,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "/D/laragon/www/LaravelClass.dev/Laravel7/documents/day6/API-PHẦN-2",
+					"file": "/D/laragon/www/LaravelClass.dev/Laravel7/documents/day8/API-PHẦN-3",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 4005,
+						"buffer_size": 4211,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								3684,
-								3684
+								1751,
+								1751
 							]
 						],
 						"settings":
@@ -927,60 +887,27 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 1397.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "/D/laragon/www/LaravelClass.dev/Laravel7/app/Rules/RequireHaveCorrectAnswerValidate.php",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 946,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								918,
-								918
-							]
-						],
-						"settings":
-						{
-							"incomplete_sync": null,
-							"remote_loading": false,
-							"synced": false,
-							"syntax": "Packages/PHP/PHP.sublime-syntax",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 150.0,
+						"translation.y": 1550.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 3,
 					"type": "text"
 				},
 				{
-					"buffer": 2,
-					"file": "/D/laragon/www/LaravelClass.dev/Laravel7/app/Rules/AnswerContentUniqueValidate.php",
+					"buffer": 1,
+					"file": "/D/laragon/www/LaravelClass.dev/Laravel7/app/Http/Controllers/Api/ExamController.php",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 935,
+						"buffer_size": 4105,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								709,
-								709
+								1669,
+								1669
 							]
 						],
 						"settings":
@@ -993,7 +920,40 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 450.0,
+						"translation.y": 1323.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "/D/laragon/www/LaravelClass.dev/Laravel7/app/Services/ExamService.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1147,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								87,
+								87
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 1,
@@ -1001,19 +961,19 @@
 				},
 				{
 					"buffer": 3,
-					"file": "/D/laragon/www/LaravelClass.dev/Laravel7/app/Rules/AnswerNumberValidate.php",
-					"semi_transient": false,
+					"file": "/D/laragon/www/LaravelClass.dev/Laravel7/database/migrations/2020_03_19_125729_create_exam_questions_table.php",
+					"semi_transient": true,
 					"settings":
 					{
-						"buffer_size": 756,
+						"buffer_size": 718,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								563,
-								563
+								311,
+								324
 							]
 						],
 						"settings":
@@ -1026,171 +986,10 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 300.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 2,
-					"type": "text"
-				},
-				{
-					"buffer": 4,
-					"file": "/D/laragon/www/LaravelClass.dev/Laravel7/app/Http/Controllers/Api/QuestionController.php",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 472,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								109,
-								81
-							]
-						],
-						"settings":
-						{
-							"incomplete_sync": null,
-							"remote_loading": false,
-							"synced": false,
-							"syntax": "Packages/PHP/PHP.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 5,
-					"type": "text"
-				},
-				{
-					"buffer": 5,
-					"file": "/D/laragon/www/LaravelClass.dev/Laravel7/app/Http/Requests/Api/QuestionRequest.php",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1750,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1747,
-								1747
-							]
-						],
-						"settings":
-						{
-							"incomplete_sync": null,
-							"remote_loading": false,
-							"synced": false,
-							"syntax": "Packages/PHP/PHP.sublime-syntax",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 1050.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 4,
-					"type": "text"
-				},
-				{
-					"buffer": 6,
-					"file": "/D/laragon/www/LaravelClass.dev/Laravel7/routes/api.php",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 795,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								736,
-								736
-							]
-						],
-						"settings":
-						{
-							"incomplete_sync": null,
-							"remote_loading": false,
-							"synced": false,
-							"syntax": "Packages/PHP/PHP.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 150.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 8,
-					"type": "text"
-				},
-				{
-					"buffer": 7,
-					"file": "/D/laragon/www/LaravelClass.dev/Laravel7/app/Http/Controllers/Api/ExamController.php",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 4030,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								225,
-								179
-							]
-						],
-						"settings":
-						{
-							"incomplete_sync": null,
-							"remote_loading": false,
-							"synced": false,
-							"syntax": "Packages/PHP/PHP.sublime-syntax",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 7,
-					"type": "text"
-				},
-				{
-					"buffer": 8,
-					"file": "/D/laragon/www/LaravelClass.dev/Laravel7/app/Http/Requests/Api/ExamRequest.php",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1240,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								232,
-								85
-							]
-						],
-						"settings":
-						{
-							"incomplete_sync": null,
-							"remote_loading": false,
-							"synced": false,
-							"syntax": "Packages/PHP/PHP.sublime-syntax",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 6,
 					"type": "text"
 				}
 			]
@@ -1253,12 +1052,12 @@
 		"selected_items":
 		[
 			[
-				"QuestionRequest",
-				"app\\Http\\Requests\\Api\\QuestionRequest.php"
-			],
-			[
 				"Response",
 				"vendor\\symfony\\http-foundation\\Response.php"
+			],
+			[
+				"QuestionRequest",
+				"app\\Http\\Requests\\Api\\QuestionRequest.php"
 			],
 			[
 				"HttpFoundation\\Response",
@@ -1645,7 +1444,7 @@
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 253.0,
+	"side_bar_width": 307.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{

@@ -1,0 +1,160 @@
+1. Exams management
+
+Resource API
+
+MVCS: Model View Controller Service
+
+domain: localhost:8000
+
+- List exams (include pagination)
+    * URI: /api/v1/exams
+    * Method: GET
+    * Request: {domain}/api/v1/exams?limit=20&page=2&column=id&sort=desc
+    * Response:
+        Success:
+            {
+                "status": true,
+                "code": 200,
+                "exams": [
+                    {
+                        "id": 3,
+                        "name": "Sterling Torp V",
+                        "created_at": "2020-03-26T15:12:25.000000Z",
+                        "updated_at": "2020-03-26T15:12:25.000000Z"
+                    },
+                    ................................................
+                    ................................................
+                ],
+                "meta": {
+                    "total": 30,
+                    "perPage": "2",
+                    "currentPage": 2
+                }
+            }
+        Faile:
+            {
+                "status": false,
+                "code": 500,
+                "message": "Undefined variable: examPaginates"
+            }
+
+
+- Create exams
+    * URI: api/v1/exams
+    * Method: POST
+    * Request:
+        {
+            name: 'Exam name sample'
+        }
+    * Response:
+        {
+            "status": true,
+            "code": 200,
+            "exam": {
+                "id": 32,
+                "name": "Exam Covid-20",
+                "updated_at": "2020-03-29T14:21:16.000000Z",
+                "created_at": "2020-03-29T14:21:16.000000Z"
+            }
+        }
+
+- Update exams
+    * URI: api/v1/exams/{id}
+    * Method: PUT
+    * Request:
+        {
+            name: 'Exam name sample'
+        }
+
+    * Assign Question to exam
+    
+    * Response:
+        Success:
+            {
+                "status": true,
+                "code": 200,
+                "exam": {
+                    "id": 32,
+                    "name": "Exam Covid-20",
+                    "updated_at": "2020-03-29T14:21:16.000000Z",
+                    "created_at": "2020-03-29T14:21:16.000000Z"
+                }
+            }
+        Faile:
+            {
+                "status": false,
+                "code": 500,
+                "message": "Message faile"
+            }
+
+- Show exams
+    * URI: api/v1/exams
+    * Method: GET
+    * Request:
+    * Response:
+
+* Validate
+    php artisan make:request ExamRequest
+
+    Exam: Create | Udpate
+    Condition: Name is require
+
+* Question API
+
+- Create new Question
+    * URI: api/v1/question
+    * Method: POST
+    * Request:
+        {
+            content: 'Question content',
+            answers: [
+                {
+                    content: 'Answer 1 content',
+                    correct: false,
+                },
+                {
+                    content: 'Answer 2 content',
+                    correct: false,
+                },
+                {
+                    content: 'Answer 3 content',
+                    correct: false,
+                },
+                {
+                    content: 'Answer 4 content',
+                    correct: true,
+                }
+            ]
+        }
+
+        Must be validation?
+            - Content: require
+            - Câu hỏi phải có tối thiểu là 2 câu trả lời
+            - Nôi dung câu trả lời bắt buộc nhập
+            - Một câu hỏi, chỉ có một câu trả lời đúng
+            - Nội dung câu trả lời không được giống nhau
+            - Phải có ít nhất 1 câu trả lời đúng
+            - Nội dung câu hỏi không được nhỏ hơn 12 ký tự
+            - Nội dung câu trả lời không được bỏ trống,
+            - Nội dung câu trả lời không được nhỏ hơn 3 ký tự,
+            - giá trị correct chỉ được phép là true hoặc false
+
+        Validate successs
+            - Insert data to Questions (Successed) | false
+            - Insert data to answers   (Successed) | false
+            - Transaction
+
+
+
+    * Response:
+        {
+            "status": true,
+            "code": 200,
+            "exam": {
+                "id": 32,
+                "name": "Exam Covid-20",
+                "updated_at": "2020-03-29T14:21:16.000000Z",
+                "created_at": "2020-03-29T14:21:16.000000Z"
+            }
+        }
+    
