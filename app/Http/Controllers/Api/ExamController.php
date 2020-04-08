@@ -3,6 +3,7 @@
 namespace App\Http\Controllers\Api;
 
 use App\Http\Controllers\Controller;
+use App\Services\QuestionService;
 use Illuminate\Http\Request;
 use App\Http\Requests\Api\ExamRequest;
 use App\Services\ExamService;
@@ -12,9 +13,12 @@ class ExamController extends Controller
 {
     private $examService;
 
-    public function __construct(ExamService $examService)
+    private $questionService;
+
+    public function __construct(ExamService $examService, QuestionService $questionService)
     {
         $this->examService = $examService;
+        $this->questionService = $questionService;
     }
 
     public function index(Request $request)
@@ -56,6 +60,8 @@ class ExamController extends Controller
         try {
             $exam = $this->examService->save(['name' => $request->name]);
 
+            $this->examService->attachQuestion($request->questions, $exam->id);
+
             return response()->json([
                 'status' => true,
                 'code'   => Response::HTTP_OK,
@@ -76,6 +82,11 @@ class ExamController extends Controller
     {
         try {
             $exam = $this->examService->save(['name' => $request->name], $id);
+            $examClone = clone($exam);
+
+            $questionIdNeedDelete = $this->getIgnoreQuestionId($examClone->questions, $request->questions);
+
+            $this->questionService->delete($questionIdNeedDelete);
 
             $this->examService->attachQuestion($request->questions, $id);
 
@@ -99,6 +110,7 @@ class ExamController extends Controller
     {
         try {
             $exam = $this->examService->findById($id);
+            $exam->questions;
 
             return response()->json([
                 'status' => true,
@@ -120,7 +132,7 @@ class ExamController extends Controller
     {
         try {
             $this->examService->delete([$id]);
-            
+
             return response()->json([
                 'status' => true,
                 'code'   => Response::HTTP_OK,
@@ -134,5 +146,17 @@ class ExamController extends Controller
                 ]
             ]);
         }
+    }
+
+    private function getIgnoreQuestionId($oldQuestions, $newQuestions)
+    {
+        $oldQuestionIds =  $oldQuestions->pluck('pivot')->pluck('question_id')->toArray();
+        $newQuestionIds = [];
+
+        foreach ($newQuestions as $question) {
+            array_push($newQuestionIds, $question['question_id']);
+        }
+
+        return array_diff($oldQuestionIds, $newQuestionIds);
     }
 }

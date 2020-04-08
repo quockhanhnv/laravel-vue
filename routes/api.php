@@ -19,9 +19,15 @@ use Illuminate\Support\Facades\Route;
 // });
 
 Route::namespace('Api')->prefix('v1')->group(function() {
-	Route::resource('exams', 'ExamController')
-		->except('create', 'edit');
+    Route::middleware('api.auth')->group(function () {
+        Route::resource('exams', 'ExamController')->except('create', 'edit');
+        Route::resource('questions', 'QuestionController')->except('create', 'edit');
+        Route::resource('results', 'ResultController')->except('create', 'edit', 'delete');
 
-	Route::resource('questions', 'QuestionController')
-		->except('create', 'edit');
+        // Authentication
+        Route::get('logout', 'AuthController@logout');
+        Route::post('me', 'AuthController@me');
+    });
+
+	Route::post('login', 'AuthController@login');
 });

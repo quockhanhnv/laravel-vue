@@ -14,7 +14,7 @@ class ExamService
      */
     public function save(array $data, int $id = null)
     {
-        return Exam::updateOrCreate(           
+        return Exam::updateOrCreate(
             [
                 'id' => $id
             ],
@@ -28,8 +28,12 @@ class ExamService
     {
         foreach ($questions as $index => $question) {
             $question['exam_id'] = $examId;
+            $question['created_at'] = now();
+            $question['updated_at'] = now();
             $questions[$index]   = $question;
         }
+
+        DB::table('exam_question')->where('exam_id', $examId)->delete();
 
         return DB::table('exam_question')->insert($questions);
     }
