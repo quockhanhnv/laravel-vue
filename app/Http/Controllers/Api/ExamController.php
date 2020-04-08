@@ -90,6 +90,8 @@ class ExamController extends Controller
 
             $this->examService->attachQuestion($request->questions, $id);
 
+            $this->examService->attachQuestion($request->questions, $id);
+
             return response()->json([
                 'status' => true,
                 'code'   => Response::HTTP_OK,
