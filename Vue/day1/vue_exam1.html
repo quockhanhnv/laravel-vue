@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>First App With Vue</title>
+    <meta charset="utf-8" />
+</head>
+<body>
+    <div id="app">
+        <button @click="displayTable()">Show/Hide Table</button>
+        <br/><br/>
+        <input type="text" placeholder="Tên sinh viên" v-model="student.name" />
+        <br/>
+        <input type="text" placeholder="Email" v-model="student.email" />
+        <br/>
+        <button @click="addStudent()">Thêm</button>
+        <br/><br/>
+        <div v-if="display" >
+            <table width="600" border="1" cellpadding="0" cellspacing="0">
+                <tr>
+                    <td>Name</td>
+                    <td>Email</td>
+                    <td>Action</td>
+                </tr>
+                <tr v-for="(item, index) in students">
+                    <td>{{ item.name }}</td>
+                    <td>{{ item.email }}</td>
+                    <td><a href="#" @click="deleteStudent(index)">Delete</a></td>
+                </tr>
+            </table>
+        </div>
+
+        <div v-else>Không tìm thấy bảng</div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/lodash@4.17.15/lodash.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vue"></script>
+    <script>
+        new Vue({
+            el: '#app',
+            data: {
+                display: true,
+                students: [],
+                student: {
+                    name: '',
+                    email: '',
+                }
+            },
+            methods: {
+                displayTable() {
+                    this.display = !this.display;
+                },
+                addStudent() {
+                    let student = _.cloneDeep(this.student);
+                    this.students.push(student);
+                    this.student.name = '';
+                    this.student.email = '';
+                },
+                deleteStudent(key) {
+                    alert('Student with key' + key);
+                }
+            },
+            // beforeMount() {
+            //     // alert('beforeMount');
+            // },
+            // mounted() {
+            //     // alert('mounted');
+            // },
+            // beforeUpdate() {
+            //     console.log('beforeUpdate');  
+            // },
+            // updated() {
+            //     console.log(this.message);
+            // },
+            // beforeCreate() {
+            //     // alert('beforeCreate');
+            // },
+            // created() {
+            //     // console.log(this.message);
+            // },
+
+        })
+    </script>
+</body>
+</html>

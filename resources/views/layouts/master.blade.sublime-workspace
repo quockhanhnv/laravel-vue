@@ -4,6 +4,42 @@
 		"selected_items":
 		[
 			[
+				"cep",
+				"cellspacing\tAttr"
+			],
+			[
+				"b",
+				"border\tAttr"
+			],
+			[
+				"num",
+				"number2"
+			],
+			[
+				"nu",
+				"number1"
+			],
+			[
+				"or",
+				"order\tproperty"
+			],
+			[
+				"fle",
+				"flex-direction\tproperty"
+			],
+			[
+				"fl",
+				"flex-direction\tproperty"
+			],
+			[
+				"flex-",
+				"flex-direction\tproperty"
+			],
+			[
+				"font",
+				"font-size\tproperty"
+			],
+			[
 				"answ",
 				"answers"
 			],
@@ -30,10 +66,6 @@
 			[
 				"margi",
 				"margin-top\tproperty"
-			],
-			[
-				"font",
-				"font-family\tproperty"
 			],
 			[
 				"mar",
@@ -284,14 +316,6 @@
 				"getElementsByClassName\tmethod"
 			],
 			[
-				"fle",
-				"flex-wrap\tproperty"
-			],
-			[
-				"b",
-				"border-radius\tproperty"
-			],
-			[
 				"fo",
 				"font-size\tproperty"
 			],
@@ -408,20 +432,12 @@
 				"parseFloat\t( s: string ): double Global"
 			],
 			[
-				"fl",
-				"float\tproperty"
-			],
-			[
 				"padding",
 				"padding\tproperty"
 			],
 			[
 				"focus",
 				"focus\t(): void Window"
-			],
-			[
-				"nu",
-				"number"
 			],
 			[
 				"loca",
@@ -498,62 +514,11 @@
 			[
 				"mari",
 				"margin\tproperty"
-			],
-			[
-				"h",
-				"height\tproperty"
-			],
-			[
-				"req",
-				"request"
-			],
-			[
-				"font-",
-				"font-family\tproperty"
-			],
-			[
-				"array_keys",
-				"array_key_exists"
 			]
 		]
 	},
 	"buffers":
 	[
-		{
-			"file": "/D/laragon/www/LaravelClass.dev/Laravel7/documents/day8/API-PHẦN-3",
-			"settings":
-			{
-				"buffer_size": 4211,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "/D/laragon/www/LaravelClass.dev/Laravel7/app/Http/Controllers/Api/ExamController.php",
-			"settings":
-			{
-				"buffer_size": 4105,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "/D/laragon/www/LaravelClass.dev/Laravel7/app/Services/ExamService.php",
-			"settings":
-			{
-				"buffer_size": 1147,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "/D/laragon/www/LaravelClass.dev/Laravel7/database/migrations/2020_03_19_125729_create_exam_questions_table.php",
-			"settings":
-			{
-				"buffer_size": 718,
-				"line_ending": "Unix"
-			}
-		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -611,21 +576,29 @@
 	},
 	"expanded_folders":
 	[
-		"/D/laragon/www/LaravelClass.dev/Laravel7",
-		"/D/laragon/www/LaravelClass.dev/Laravel7/app",
-		"/D/laragon/www/LaravelClass.dev/Laravel7/app/Http",
-		"/D/laragon/www/LaravelClass.dev/Laravel7/app/Http/Controllers",
-		"/D/laragon/www/LaravelClass.dev/Laravel7/app/Http/Controllers/Api",
-		"/D/laragon/www/LaravelClass.dev/Laravel7/app/Http/Requests",
-		"/D/laragon/www/LaravelClass.dev/Laravel7/app/Http/Requests/Api",
-		"/D/laragon/www/LaravelClass.dev/Laravel7/app/Models",
-		"/D/laragon/www/LaravelClass.dev/Laravel7/app/Rules",
-		"/D/laragon/www/LaravelClass.dev/Laravel7/app/Services",
-		"/D/laragon/www/LaravelClass.dev/Laravel7/database",
-		"/D/laragon/www/LaravelClass.dev/Laravel7/database/migrations"
+		"/D/laragon/www/LaravelClass.dev/Laravel7"
 	],
 	"file_history":
 	[
+		"/D/laragon/www/LaravelClass.dev/Vue/day1/vue_exam1.html",
+		"/D/laragon/www/LaravelClass.dev/Vue/day1/Document.md",
+		"/D/laragon/www/LaravelClass.dev/Vue/day1/vue_exam2.html",
+		"/D/laragon/www/LaravelClass.dev/Vue/day1/Bắt buộc",
+		"/D/laragon/www/LaravelClass.dev/Vue/day1/arrow_function_es6.html",
+		"/D/laragon/www/LaravelClass.dev/Vue/day1/class_es6.html",
+		"/D/laragon/www/LaravelClass.dev/Vue/day1/const_in_es6.html",
+		"/C/Users/Khoi Pham/Desktop/Slider/Front-end-class/Day7/Document.md",
+		"/C/Users/Khoi Pham/Desktop/Slider/Front-end-class/Day7/order.html",
+		"/C/Users/Khoi Pham/Desktop/Slider/Front-end-class/Day7/flex-grow.html",
+		"/C/Users/Khoi Pham/Desktop/Slider/Front-end-class/Day7/exam-awesome-font.html",
+		"/C/Users/Khoi Pham/Desktop/Slider/Front-end-class/Day7/google.font.html",
+		"/C/Users/Khoi Pham/Desktop/Slider/Front-end-class/Day7/exam1-font.html",
+		"/C/Users/Khoi Pham/Desktop/Slider/Front-end-class/File bài tập (File responses)/Homework_4 - 28- Nguyễn Trọng Huy/1.css",
+		"/C/Users/Khoi Pham/Desktop/Slider/Front-end-class/File bài tập (File responses)/PhanCongDung.lesson4 - Dung Phan Cong/PhanCongDung.lesson4/Homework-lesson4/lesson04.css",
+		"/C/Users/Khoi Pham/Desktop/Slider/Front-end-class/File bài tập (File responses)/TranLePhucBinh_Lesson6 - Bình Phúc/css/style.css",
+		"/D/laragon/www/LaravelClass.dev/Laravel7/app/Http/Controllers/Api/ExamController.php",
+		"/D/laragon/www/LaravelClass.dev/Laravel7/documents/day8/API-PHẦN-3",
+		"/D/laragon/www/LaravelClass.dev/Laravel7/app/Services/ExamService.php",
 		"/D/laragon/www/LaravelClass.dev/Laravel7/app/Http/Controllers/Api/QuestionController.php",
 		"/D/laragon/www/LaravelClass.dev/Laravel7/vendor/symfony/http-foundation/Response.php",
 		"/D/laragon/www/LaravelClass.dev/Laravel7/app/Services/QuestionService.php",
@@ -651,7 +624,6 @@
 		"/C/Users/Khoi Pham/Desktop/Slider/Front-end-class/FrontendClass/css/icomoon.css",
 		"/C/Users/Khoi Pham/Desktop/Slider/Front-end-class/FrontendClass/css/flaticon.css",
 		"/D/laragon/www/LaravelClass.dev/Laravel7/app/Http/Requests/Api/ExamRequest.php",
-		"/D/laragon/www/LaravelClass.dev/Laravel7/app/Http/Controllers/Api/ExamController.php",
 		"/D/laragon/www/LaravelClass.dev/Laravel7/routes/api.php",
 		"/D/laragon/www/LaravelClass.dev/Laravel7/app/Rules/AnswerNumberValidate.php",
 		"/D/laragon/www/LaravelClass.dev/Laravel7/app/Rules/AnswerContentUniqueValidate.php",
@@ -661,7 +633,6 @@
 		"/C/Users/Khoi Pham/Desktop/Slider/Front-end-class/jquery/lodash.html",
 		"/C/Users/Khoi Pham/Desktop/Slider/Front-end-class/jquery/validate-form.html",
 		"/D/laragon/www/LaravelClass.dev/Laravel7/documents/day6/API",
-		"/D/laragon/www/LaravelClass.dev/Laravel7/app/Services/ExamService.php",
 		"/D/laragon/www/LaravelClass.dev/Laravel7/app/Models/Exam.php",
 		"/D/laragon/www/LaravelClass.dev/Laravel7/config/app.php",
 		"/D/laragon/www/LaravelClass.dev/Laravel7/routes/web.php",
@@ -736,28 +707,11 @@
 		"/C/Users/Khoi Pham/Desktop/Slider/text.js",
 		"/C/Users/Khoi Pham/Desktop/test.html",
 		"/C/Users/Khoi Pham/Desktop/Slider/Style.css",
-		"/D/laragon/www/LaravelClass.dev/Laravel7/resources/views/layouts/master.blade.php",
-		"/C/Users/Khoi Pham/Desktop/Slider/Style.cssa",
-		"/D/laragon/www/LaravelClass.dev/Laravel7/database/migrations/2020_03_17_135103_add_column_description_to_lessons_table.php",
-		"/D/laragon/www/LaravelClass.dev/Laravel7/documents/day3/Document.md",
-		"/D/laragon/www/LaravelClass.dev/Laravel7/database/migrations/2020_03_17_132932_create_courses_table.php",
-		"/D/laragon/www/LaravelClass.dev/Laravel7/database/migrations/2020_03_17_134211_create_lessons_table.php",
-		"/D/laragon/www/LaravelClass.dev/Laravel7/.gitignore",
-		"/D/laragon/www/LaravelClass.dev/Laravel7/database/migrations/2020_03_17_141318_rename_column_description_to_desc_in_lessons_table.php",
-		"/D/laragon/www/LaravelClass.dev/Laravel7/app/Http/Controllers/Backend/CategoryController.php",
-		"/D/laragon/www/LaravelClass.dev/Laravel7/app/Http/Controllers/Backend/NewsController.php",
-		"/D/laragon/www/LaravelClass.dev/Laravel7/app/Http/Controllers/Backend/ProductController.php",
-		"/D/laragon/www/LaravelClass.dev/Laravel7/app/Http/Controllers/Backend/UserController.php",
-		"/D/laragon/www/LaravelClass.dev/Laravel7/resources/views/backend/products/index.blade.php",
-		"/D/laragon/www/LaravelClass.dev/Laravel7/app/Http/Controllers/Backend/DashboardController.php",
-		"/D/laragon/www/LaravelClass.dev/Laravel7/resources/views/backend/news/index.blade.php",
-		"/D/laragon/www/LaravelClass.dev/Laravel7/resources/views/backend/users/index.blade.php",
-		"/D/laragon/www/LaravelClass.dev/Laravel7/resources/views/backend/dashboard/index.blade.php",
-		"/D/laragon/www/LaravelClass.dev/Laravel7/resources/views/backend/categories/index.blade.php"
+		"/D/laragon/www/LaravelClass.dev/Laravel7/resources/views/layouts/master.blade.php"
 	],
 	"find":
 	{
-		"height": 47.0
+		"height": 32.0
 	},
 	"find_in_files":
 	{
@@ -857,147 +811,14 @@
 	"groups":
 	[
 		{
-			"selected": 1,
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"file": "/D/laragon/www/LaravelClass.dev/Laravel7/documents/day8/API-PHẦN-3",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 4211,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1751,
-								1751
-							]
-						],
-						"settings":
-						{
-							"incomplete_sync": null,
-							"remote_loading": false,
-							"synced": false,
-							"syntax": "Packages/Text/Plain text.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 1550.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 3,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "/D/laragon/www/LaravelClass.dev/Laravel7/app/Http/Controllers/Api/ExamController.php",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 4105,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1669,
-								1669
-							]
-						],
-						"settings":
-						{
-							"incomplete_sync": null,
-							"remote_loading": false,
-							"synced": false,
-							"syntax": "Packages/PHP/PHP.sublime-syntax",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 1323.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "/D/laragon/www/LaravelClass.dev/Laravel7/app/Services/ExamService.php",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1147,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								87,
-								87
-							]
-						],
-						"settings":
-						{
-							"incomplete_sync": null,
-							"remote_loading": false,
-							"synced": false,
-							"syntax": "Packages/PHP/PHP.sublime-syntax",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "/D/laragon/www/LaravelClass.dev/Laravel7/database/migrations/2020_03_19_125729_create_exam_questions_table.php",
-					"semi_transient": true,
-					"settings":
-					{
-						"buffer_size": 718,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								311,
-								324
-							]
-						],
-						"settings":
-						{
-							"incomplete_sync": null,
-							"remote_loading": false,
-							"synced": false,
-							"syntax": "Packages/PHP/PHP.sublime-syntax",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
-					"type": "text"
-				}
 			]
 		}
 	],
 	"incremental_find":
 	{
-		"height": 34.0
+		"height": 32.0
 	},
 	"input":
 	{
@@ -1042,7 +863,7 @@
 	"project": "master.blade.sublime-project",
 	"replace":
 	{
-		"height": 64.0
+		"height": 60.0
 	},
 	"save_all_on_build": true,
 	"select_file":
@@ -1444,7 +1265,7 @@
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 307.0,
+	"side_bar_width": 210.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>First App With Vue</title>
+    <meta charset="utf-8" />
+</head>
+<body>
+    <div id="app">
+        {{ message }}
+        <br/>
+        <br/>
+        {{ age }}
+        <br/>
+        {{ getName() }}
+        <br/>
+        {{ getEmail('daotaolaptrinhsuntech@gmail.com') }}
+        <br/>
+        {{ getInfo() }}
+        <br/>
+        <button @click="showMessage()">Click here</button>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/vue"></script>
+    <script>
+        new Vue({
+            el: '#app',
+            data: {
+                message: 'Học Vue tại SUNTECH',
+                name: 'Nguyễn Văn A',
+                age: 1000,
+            },
+            methods: {
+                getName() {
+                    return this.name;
+                },
+                getEmail(email) {
+                    return email;
+                },
+                getInfo() {
+                    return `Ten ban la: ${this.getName()}
+                        . Email của bạn là ${this.getEmail('daotaolaptrinhsuntech@gmail.com')}`;
+                },
+                showMessage() {
+                    alert('Test event in Vue JS')
+                }
+            }
+        })
+    </script>
+</body>
+</html>
